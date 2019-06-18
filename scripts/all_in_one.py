@@ -1,7 +1,7 @@
 import urllib
 import json
 
-class Searching(object):
+class Search(object):
 
     @staticmethod
     def search(*args):
