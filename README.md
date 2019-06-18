@@ -41,3 +41,13 @@ This will save a list of manifest links for use in other scripts, or for your ow
 >>> python fulltext.py
 ```
 Once the final script has run, you should have the full text of the items you've requested.
+
+### All-in-one
+
+The ["all_in_one.py"](https://github.com/ian-nai/Europeana-Full-Text-in-Python/blob/master/scripts/all_in_one.py) script allows you to search in Europeana and return any available full text from the results, with all of the scripts combined into one file.
+
+Example usage:
+```
+>>> from all_in_one import Search
+>>> Search.search('your', 'keywords')
+````
