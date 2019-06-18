@@ -11,7 +11,7 @@ class Searching(object):
             search_string = ('+'.join('' + item + '' for item in args))
     
         
-        API_key = "APMPC4JYR"
+        API_key = "your_key"
         base_url = "https://www.europeana.eu/api/v2/search.json?query="
         url = "".join(base_url + '"' + search_string + '"' + "&rows=100&start=1&&text_fulltext=true&wskey=" + API_key)
         base2 = "https://iiif.europeana.eu/presentation"
