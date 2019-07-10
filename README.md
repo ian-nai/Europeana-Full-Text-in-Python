@@ -51,3 +51,13 @@ Example usage:
 >>> from all_in_one import Search
 >>> Search.search('your', 'keywords')
 ````
+
+### Newspapers
+
+The ["newspaper_search.py"](https://github.com/ian-nai/Europeana-Full-Text-in-Python/blob/master/newspapers/newspaper_search.py) script allows you to search newspapers in Europeana and return any available full text from the results, with all of the text combined into one .txt file.
+
+Example usage:
+```
+>>> from newspaper_search import Search
+>>> Search.search('your', 'keywords')
+````
