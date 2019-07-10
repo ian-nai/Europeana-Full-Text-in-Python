@@ -12,7 +12,7 @@ class Search(object):
         for arg in args:
             search_string = ('+'.join('' + item + '' for item in args))
    
-        API_key = "APMPC4JYR"
+        API_key = "your_key"
         base_url = "https://newspapers.eanadev.org/api/v2/search.json?query="
         url = "".join(base_url + '' + search_string + '' + "&profile=hits&wskey=" + API_key)
 
