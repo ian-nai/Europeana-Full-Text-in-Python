@@ -1,5 +1,5 @@
 # Europeana Full Text in Python
-Various Python scripts to assist with searching and downloading full text records via the [Europeana](https://www.europeana.eu/portal/en) APIs.
+Various Python scripts to assist with searching and downloading full text records via the [Europeana](https://www.europeana.eu/portal/en) APIs, including newspaper records.
 These scripts allow you to search records in Europeana, parse the JSON returned to obtain various metadata, and download full text if it's available.
 
 ### Getting Started
