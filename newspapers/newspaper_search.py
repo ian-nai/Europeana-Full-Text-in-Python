@@ -33,7 +33,7 @@ class Search(object):
 
         for base in anno_links:
            base_url2 = "https://iiif.europeana.eu/presentation"
-           new_url = "".join(base_url2 + '' + base_thing + '' + "/annopage/1")
+           new_url = "".join(base_url2 + '' + base + '' + "/annopage/1")
            full_links.append(new_url)
       
         text_links = []
